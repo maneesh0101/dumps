@@ -1,0 +1,50 @@
+The three concepts used to explain the foundation of blockchain are __________________. - Business Network, Digital Assets, Ledger
+Private Blockchain is a de-centralized type of Blockchain? - Flase
+BlockChain provides ___________ database of every transaction involving value. - Open DeCentralized
+Digital assets must always be tangible. - False
+Blockchain which is popularly known as ‘for the people, by the people and of the people” is ___________. - Public BlockChain
+Consortium Blockchain provides a faster and more protected ecosystem than a Private Blockchain - True
+Bitcoin network would make it impossible to bypass the traditional financial intermediaries. - False
+Mainly how many types of blockchains have emerged after bitcoin introduced blockchain to the world - Three
+Bankchain is an example of _______. - Private BlockChain
+------------------------------------------------------------------------------------------------------------------------------------------
+The value of cryptocurrency is independent of market conditions such as supply and demand. - False
+Name the first cryptocurrency with computing power contribution? - GridCoin
+The two types of cryptography are ______________. - Asymmetric and Symmetric
+Which among the following is the most flexible cryptocurrency? - Ether
+The value of coins ( litecoin, bitcoin) is same at a particular time. - False
+Encrypted text is also known as ____________. - Cipher Text
+HASH can be used to validate the input? - True
+Encryption reduces data security? - False
+We can buy cryptocurrency. - False
+------------------------------------------------------------------------------------------------------------------------------------------
+Bitcoins can be purchased in exchange of services. - True
+The higher the computational power, the lower is the difficulty in mining. - False
+Which among the following are the advantages of using Bitcoin? - All
+The rate of generation of new bitcoins is constant. - False
+We may use bitcoin for purchasing merchandise as well? - True
+The sender and the receiver in a transaction provide miners with a fee. - False
+The output of Hashing is popularly known as _______ . - Digest
+------------------------------------------------------------------------------------------------------------------------------------------
+Which of the following platform(s) provides a modular architecture? - Hyperledger
+The first smart contract platform is ____ - Etherum
+Which platform could gain its best use case from financial service industry? - R3 Corda
+New bitcoins are released every time a transaction is verified. - True
+Ether provides greater flexibility than Bitcoin does. - True
+Which platform could gain its best use case from supply chain industry? - Hyperledger
+Ethereum is a digital currency. - False
+------------------------------------------------------------------------------------------------------------------------------------------
+Bitcoin is an example of which type of blockchain? - Public BlockChain
+One bitcoin could be divided down to ____ decimal point? - 8
+Smart Contracts are reversible. - False
+Hyperledger allows us to customize the visibility of a transaction in a blockchain. - True
+Currencies other than Bitcoin such as Litecoin and Dash are popularly known as ___________. - Altcoins
+Both ________ and ________ automatically check your previous transactions to make sure you have enough bitcoins to send. - Ledger and your Wallet
+------------------------------------------------------------------------------------------------------------------------------------------
+Crypto analysis is used ___________. -
+Ripple is an example of _________. -
+In asymmetric key cryptography, the private key is kept by _________.
+Who is a miner? -
+Coincap is a budding cryptocurrency. -
+A transaction without verification in bitcoin could be fastest accomplished in how much time? - 90 Sec --Wrong 
+Chose the correct options(s). - Hash algorithm takes analogous input and converts it into digital.-- Wrong

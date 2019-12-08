@@ -1,0 +1,35 @@
+Input variables are also known as feature variables. - True
+Output variables are known as Feature Variables . - False
+The objective function for linear regression is also known as Cost Function. - True
+____________ controls the magnitude of a step taken during Gradient Descent . - Learning rate
+What is the Learning Technique in which the right answer is given for each example in the data called ? - Supervised Learning
+The result of scaling is a variable in the range of [1 , 10]. - False
+What is the process of subtracting the mean of each variable from its variable called ? - Mean Normalization
+Cost function in linear regression is also called squared error function. - True
+What is the name of the function that takes the input and maps it to the output variable called ? - Hypothesis Function
+How are the parameters updates during Gradient Descent Process ? - Simultaneously
+What is the process of dividing each feature by its range called ? - Feature Scaling
+Problems that predict real values outputs are called ? - Regression Problems
+----------------------------------------------------------------------------------------------------------------------------------------
+Where does the sigmoid function asymptote ? - 0 and 1
+A suggested approach for evaluating the hypothesis is to split the data into training and test set - True
+Linear Regression is an optimal function that can be used for classification problems. - False
+Reducing the number of features can reduce overfitting - True
+____________ function is used as a mapping function for classification problem.- Sigmoid
+What is the range of the output values for a sigmoid function ? - [0,1]
+Problems where discrete valued outputs predicted are called ? - Classification Problems
+Overfiting and Underfitting are applicable only to linear regression problems - False
+High values of threshold are good for the classification problem. - False
+Underfit Data has a high variance - True
+Overfit data has a high bias - False
+Classification problems with just two classes are called Binary classification problems. - True
+I have a scenario where my hypothesis fits my training set well but fails to generalize for test set. What is this scenario called ? - Overfitting
+For _____________ the error is calculated by finding the sum of squared distance between actual and predicted values - Regression
+For ______________ the error is determined by getting the proportion of values miss-classified by the model - Classification
+____________ is the line that separates y = 0 and y = 1 in a logistic function. - Decision Boundary
+----------------------------------------------------------------------------------------------------------------------------------------
+For an underfit data set the training and the cross validation error will be high. - False
+For an overfit data set the cross validation error will be much bigger than the training error. - True
+The objective function for linear regression is also known as Cost Function. - True
+So when a ML Model has high bias, getting more training data will help in improving the model - False
+What measures the extent to which the predictions change between various realizations of the model ? - Variance

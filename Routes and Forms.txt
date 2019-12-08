@@ -1,0 +1,117 @@
+Service is a _.
+Class 11
+
+Who creates new services required by applications?
+Providers
+
+@Service decorator is used to create a new Service.
+False.
+
+Which of the following provides data to components?
+Services
+
+You define Service in __.
+constructor
+---------------------------------------------
+PATCH method is used when sending passwords or other sensitive information.
+True
+
+Observable can handle multiple events.
+True
+
+Promise returns single value when calls.
+True
+
+In a HTTP call, where is the data fetched from?
+API
+
+Observable returns only single object in HTTP request.
+True
+---------------------------------------------
+Which mechanism allows user to navigate between components / views?
+Routing 
+
+Which property of “Routes” define the path of the component.
+path 
+
+Router defines mapping of URL to .
+Component
+
+Which of the following is affected / changed on loading components?
+URL
+
+EventEmitter is a defined in @angular/core module used to emit custom events.
+Class
+
+Which is not a router guard type?
+CanDeactivateChild 
+
+-----------------------------------------------
+In Reactive forms, the HTML of the forms are automatically created.
+False
+
+How to prevent Angular2 from auto-validating form?
+novalidate
+
+Which of the following will be “true” if user changed the value of control?
+dirty
+
+FormGroups can nest inside other FormGroups.
+True
+
+Which function bootstraps the form to its pristine state?
+reset
+
+You add 'novalidate' attribute to form, to prevent browser from automatically validating.
+
+True
+-------------------------
+You place ___ where you want the components inserted.
+router-outlet 
+
+
+Which is NOT an operator of Observables?
+geo 
+
+_ is not a primary HTTP verb.
+FETCH
+
+Promise is cancellable.
+False
+
+
+Non-parameterised routes always take priority over parameterised routes.
+True
+
+_ decorator creates services.
+@injectable 
+
+Which property describes the path you want to redirect the user?
+redirectTo 
+
+
+Which decorator is optional if the class has any other decorator?
+@injectable 
+
+----------------------------------------
+
+FormsModule is imported from @angular/_ in Model Driven Form.
+
+form
+
+none of these
+
+forms xx (wrong)
+
+core
+
+
+_ acts as container to store all the services required for the creation of component.
+
+providers
+
+registerable
+
+imports
+
+injectables (wrong)

@@ -1,0 +1,44 @@
+What is the purpose of using a dashboard for data visualization? - Clear and Concisely
+What needs to be considered first before you start a data visualization presentation? -The Data you are using
+How does visualization of big data help in interpreting information? - Clear and Coherent way
+Data Visualization makes complex data more ____. - Understandable
+-------------------------------------------------------------------------------------------------------------------
+As per Edward Tufte, good visualizations strive towards - Encouraging viewers to draw coparison
+Which type of visual aspect could be considered ineffective or not very accurate at conveying quantitative or ordinal data? - Shapes
+While at a party you notice a group of people in the crowd headed in the same direction. Your tendency to group them is due to - Law of Common Fate
+Which law of Gestalt psychology explains individual's ability to perceive objects as shapes, letters, pictures, etc.
+		as being whole while they are not? - Law of Closure
+-------------------------------------------------------------------------------------------------------------------
+When using a Bar Chart, the data values are represented by? - Length of Bar
+What type of chart can be used to place some emphasis on any trends in the data visualization presentation? - Line
+Which chart displays data as a collection of points, each having one variable determining the position on the
+		horizontal axis and other variable determining the position on the vertical axis? - Scatter Plot
+A bar graph is used to represent which type of data? - Discrete
+What differentiates histogram from a bar chart? - Gap Between Bar
+-------------------------------------------------------------------------------------------------------------------
+A Manufacturing company wants to view the performance of various plants based on Throughput, Wastage, Returns, Downtime and Manufacturing Cost per Unit.
+		Which chart would be the best for this? - Parallel Coordinate Plot
+Which map is a two-dimensional representation of data in which values are represented by colors? - Heat Map
+Which of the following cannot be a geo-dimension? - Mobile Number
+Which of the following is powerful visualization technique for illustrating hierarchical data and part-to-whole relationships? - Tree Map
+Interactivity in Visualizations enables users to - Find Answer to very specific questions
+-------------------------------------------------------------------------------------------------------------------
+How is data visualization used? - Communicate information to a diverse audience.
+A histogram is used for which type of data? - Continuous
+Which of these can be used to display data graphically? - Bar
+A histogram is a graphical representation of the distribution of data. It is an estimate of the _________ of a continuous variable - probability distribution
+What method of data representation is best suited to the demonstration of data results if that data is of differing nominal values and
+		needs to represent quantitative data on different axes? - Scatter
+What is the minimum requirement to form a bar chart? - 1 Measure and 1 Dimention
+In which chart type quantitative data is displayed graphically and the area between axis and line are emphasized with colors, textures and hatchings? - Area Chart
+Representation of information in a graphic format to make the data easily understandable at a glance is known as? - Infographics
+Which chart displays information as a series of data points called 'markers' connected by straight line segments? - Line Chart
+In a Pie Chart, _____ is used to represent data. - Sectors
+The tendency to treat lines as if they continue is called - Law of Continuity
+The axis-plot/ map on which the data is to be visualized or indicated, like the axis used in plotting line graph,
+		what is the angle between the adjacent axes? - 90 Degree
+In project, % compliance to SLAs metric is effected by factors like inflow of tickets, # of interfaces, skill levels, etc.
+		To define the relationship between % compliance to SLAs and inflow of tickets, which plot is best? - Scatter
+Which one of these is not a data visualization tool? - Eclips
+Which Gestalt law explains individuals ability to mentally grouping items by color, texture, size or shape? - Law of Similarity
+Why is text added to a data visualization presentation? - To add context	

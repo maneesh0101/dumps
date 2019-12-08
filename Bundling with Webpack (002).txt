@@ -1,0 +1,116 @@
+
+-------------------------------------------------
+Executing the following command will automatically create a file named: webpack_practice >> npm init  -->Package.json
+
+Which of these softwares is necessary to install webpack--> Node.js
+
+
+Webpack supports third party libraries--> True
+
+The latest version of Webpack is--> 4.X  -> wrong
+
+The distinct feature of webpack is--> code splitting
+
+
+
+---------------------------------------------------
+
+
+Webpack supports third party libraries--> True
+
+Which of the following webpack feature enables Code on Demand --> code splitting
+
+Which of these softwares is necessary to install webpack--> node.js
+
+The distinct feature of webpack is  --> code splitting
+
+Which of the following code can help us make the compilation automatically  --> "build": "webpack ./src/app.js ./dist/bundle.js
+
+
+---------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------
+Which of the following code can be used to install the style loader?  -->npm install css-loader style-loader --save-dev
+
+Webpack understands only __________________ All options  --> wrong 
+
+Which helps in using babel with webpack--> `babel-loader
+
+Which of the following loader can be used to process style sheets--> css- loader
+
+
+
+------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------
+
+Which of the following code snippet instantiates the plugin FrescoPlugin   --> Require New freco plugin
+
+
+_____________ simplies the creation of HTML files to serve webpack bundles  -->  HtmlWebpackPlugin
+
+Plugins are instantiable objects  --> True
+
+Which of the following features, considered the backbone of Webpack  --> Plugins
+
+-------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------
+
+Webpack understands only __________________> Javascript
+
+A plugin can be instantiated with the keyword  --> new
+
+Which of the following, can be used to define an entry point?-->
+ module.exports = {
+    //  Entry point of webpack
+    entry: './src/app.js',
+
+
+Which of the following is a Node.js express server?  --> webpack-dev-server
+
+Executing the following command will automatically create a file named: webpack_practice >> npm init     --->package.json
+
+Webpack is not recommended for large web applications  --> False
+
+Webpack supports third party libraries  --> True
+
+Which of the following code can help us make the compilation automatically   --> "build": "webpack ./src/app.js ./dist/bundle.js
+
+
+Plugins are instantiable objects  --> True
+
+Which of the following webpack feature enables Code on Demand   -->code splitting
+
+Which of the following tells webpack how to treat a Bundled Code  --> output
+
+Which of the following code snippet instantiates the plugin FrescoPlugin  --> Require
+
+New freco plugin
+
+Which of the following makes Webpack extensible  -> plugins ( wrong)
+
+Custom plugins can be installed via ___________npm 
+
+Which of these softwares is necessary to install webpack  -->node.js
+
+In Webpack, we can use  --> both(wrong)
+
+Which of the following features, considered the backbone of Webpack  -->  plugins
+
+Webpack is written in-->Javascript
+
+Webpack starts building the dependency graph from--> entry point (wrong)
+
+Webpack is a/an ______________ tool --> opensource
+
+
+-----------------------------------------------------------------
+
+
+
+

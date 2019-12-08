@@ -1,0 +1,56 @@
+Which command in R, lists the available Datasets in R? - data()
+graphics,ggplot2 packages qualify for _________________ - Visualization Packages
+Scatterplot Matrix is an example of __________ type of visualization. - Multivariate Visualization
+Histograms , Density Plots are examples of which type of visualization? - Univariate Visualization
+In the plot, to add label to the horizontal axis the variable to be configured is - xlab
+Title of the plot is provided by the variable - main
+------------------------------------------------------------------------------------------------------
+Which parameter in R helps to decide the number of bins which we want to manually override? - Breaks
+The vertical axis label is provided by the parameter - ylab
+In case of the plot, which parameter decides whether the plot should be line or points or both? - type
+How can we find the different parameters available ? - par()
+Which parameter decides the line type & plot symbol respectively? - lch & pty
+Histogram is mainly used as visual representation of ___________________ - distribution
+------------------------------------------------------------------------------------------------------
+Which parameter could be used to convert stacked barplot into grouped bar plot? - beside=TRUE
+If one would like to visualize 6 graphs in single view with graphs scaling in row wise fashion (2 rows) - par(mfrow=c(2,3)
+Customizing the way your graphs could be arranged can be configured using _____________________ - layout()
+Which parameter is helpful to swap the chart from x-axis to y-axis? - horiz=TRUE
+Barchart represents visual display of ____________________ of category of categorical variable - frequency
+------------------------------------------------------------------------------------------------------
+The width of line can be changed by - lwd=4
+Which feature in R allows to add new graph on top another existing graph? - points
+Changing the font size of the axis labels could be accomplished using the following font - font.axis
+col.main=4, will change size of the font ? - False
+Stratified boxplots are useful for examining the relationship between a categorical variable and a numeric variable. - True
+Which parameter removed the X & Y axis? - axes=F
+Which argument helps in changing the size of plotting characters? - CEX
+If in the Notched boxplot does not overlap, it means___________ - Medians do not overlap
+Which plot would be applicable for summarizing the value of numeric variable? - Box Plot
+------------------------------------------------------------------------------------------------------
+Which command allows to place the text within the graph? - text
+Which text feature allows the text to written along the margin of the graph? - mtext
+While adding text to graph, adj=0 refers to ? - Text will start at mentioned axis position
+------------------------------------------------------------------------------------------------------
+Lattice package supports the generation of trellis graphs (graphs that display a variable or the relationship between variables,
+		conditioned on one or more other variables) - True
+scatterplot in lattice is represented by _________ - scatter
+In lattice,y~x | A*B refers to - Display the relationship between numeric variables y and x separately for every combination of factor A and B levels
+In lattice, ~x|A refers to - display numeric variable x for each level of factor A
+Which of this is limitation of lattice plots? - All
+------------------------------------------------------------------------------------------------------
+The grey zone around the geom("smooth") line refers to - 95% confidence zone
+Factors represent the subset of the data and they should be properly labelled. - True
+Using ggplot2 for multifaceted diagram, the deciding variable on the number of rows or columns is - .(decimal)
+ggplot2 requires the data to be in - dataframe format
+What does gg in ggplot2 refer to - Grammar of Graphics
+Aesthetics in ggplot2 refers to - size,shape,color
+Geometric (geom) in ggplot2 refers to - points,lines
+In multifaceted plot, how many rows will be formed when facets is mentioned as facets=drv~. - depends on drv
+In multifaceted plot, how many rows will be formed when facets is mentioned as facets=.~drv - Always 1 row
+In multifaceted plot, how many columns will be formed when facets is mentioned as facets=drv~. - Always 1 Column
+In multifaceted plot, how many columns will be formed when facets is mentioned as facets=.~drv - depends on drv
+------------------------------------------------------------------------------------------------------
+ggplot2 allows to add features layer by layer - True
+The functions which assist in labelling of the functions is _____________. - All
+In ggplot2, which function decides the object printing __________________? - geom_point()
