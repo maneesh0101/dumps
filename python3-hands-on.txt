@@ -1,0 +1,450 @@
+
+#Hands-on - Range
+#Write script to print the values 0 1 2 3 4. Hint: Use 'range' function and 'for' loop
+
+for index in range(0,5):
+  print(index)
+
+========================================================================
+
+#Hands-on - Range
+Write a script to generate the following list of numbers using range
+
+Generate the list 'k1' having five continuous numbers starting from 0.
+
+
+Print 'k1'
+
+Generate the list 'k2' having five continuous numbers starting from 10.
+
+Print 'k2'
+
+Generate the list 'k3' having even numbers between 10 and 20 (including both of them too).
+
+Print 'k3'
+
+Generate the list 'k4' having numbers from 100 to 1 in decreasing order, which are also multiple of 25.
+
+Print 'k4'
+'''
+k1=list(range(0,5))
+print(k1)
+
+k2=list(range(10,15))
+print(k2)
+
+
+k3=list(range(10,21,2))
+print(k3)
+
+k4=list(range(100,0,-25))
+print(k4)
+
+========================================================================
+
+# Hands-On - Namespaces
+
+Define the following variables in a Python script:
+
+a = 10
+b = 3.14
+s = 'Hello'
+x = True
+Display all the objects defined in the current namespace by using the 'dir' function.
+
+class Person:
+	a = 10
+	b = 3.14
+	s = 'Hello'
+	x = True
+print(dir(Person))
+
+========================================================================
+
+# Hands-On - Namespaces
+
+Write a script to prompt the question "Enter an Integer : ". Pass value '10' as user input, and capture it in variable 'x'.
+Print the value of 'x' and its type in separate lines.
+Hint: Use the 'type' function.
+
+x=input("Enter an integer: ")
+print(x)
+print(type(x))
+
+========================================================================
+
+# Hands-On - Newline & Tab Spacing
+
+Perform the following tasks:
+Consider the string 's1' with value 'Python\nis\namazing'. Convert it to a raw string, named 'rs1', and print it.
+Consider the string 's2' with value 'Python\tis\tamazing'. Convert it to a raw string, named 'rs2', and print it.
+Hint: A string prefixed with r is known as a raw string.
+
+s1='Python\nis\namazing'
+rs1=r'Python\nis\namazing'
+print(rs1)
+
+s2='Python\tis\tamazing'
+rs2=r'Python\tis\tamazing'
+print(rs2)
+
+========================================================================
+
+# Hands-on - String Operations
+
+Consider the string 's' with value "INfinity". Perform the following tasks, and print their respective output in separate lines.
+
+Check if 's' has alphabets only.
+Check if 's' has digits only.
+Determine the length of 's'.
+Convert all characters of 's' into upper case.
+Convert all characters of 's' into lower case.
+Find how many 'i' s are there in 's'.
+Find the index position of character 't' in 's'.
+Hint: Use string methods isalpha, isdigit, len, lower, upper, count, index.
+
+s="INfinity"
+print(s.isalpha())
+print(s.isdigit())
+print(len(s))
+print(s.upper())
+print(s.lower())
+print(s.count("i"))
+print(s.index("t"))
+
+========================================================================
+
+# Hands-on - Using int - Math Operations
+
+Assign x=5 and y=2, perform the following operations, and display their output in separate lines.
+
+Add
+Subtract
+Multiply
+Division
+Power
+Modulus
+
+x=5
+y=2
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x**y)
+print(x%y)
+
+========================================================================
+
+# Hands-On - Set
+
+Create two sets 'a', and 'b' with the following values:
+a = ('10','20','30','40')
+b = ('30','60')
+
+Determine the following:
+
+Union; store the output in variable 'u' and print it.
+Intersection; store the output in variable 'i' and print it.
+Difference between set 'a' and 'b'; store the output in variable 'd' and print it.
+Symmetric difference; store the output in variable 'sd' and print it.
+
+a = {'10','20','30','40'}
+b = {'30','60'}
+u=a|b
+print(u)
+i=a&b
+print(i)
+d=a-b
+print(d)
+sd=a^b
+print(sd)
+
+========================================================================
+
+# Hands-On - Using Float
+
+Create a float variable v with value 10.6452348, and display it after rounding off to two decimal numbers.
+
+v=10.6452348
+print(round(v,2))
+
+========================================================================
+
+# Hands-On - Dict
+
+Write a script that performs the following tasks serially:
+
+Create an empty Dictionary, 'd1' using the 'dict' function.
+Print 'd1'.
+Create a Dictionary 'd2' with key values p-play , t-talk.
+Print 'd2'.
+Add two new key values: v-vibe, d-docs.
+Print 'd2'.
+Remove the key value pair, 'v' - vibe, from 'd2'
+print 'd2'
+
+d1 = dict()
+print(d1)
+d2 = {
+  "p": "play",
+  "t": "talk"
+}
+print(d2)
+d2["v"] = "vibe"
+d2["d"]="docs"
+print(d2)
+d2.pop("v")
+print(d2)
+
+========================================================================
+
+# Hands-On - Get Additional Info
+Write a python script to print the docstring(documentation string) of the input function.
+
+class Helper: 
+    def __init__(self): 
+        '''The helper class is initialized'''
+  
+    def print_help(self): 
+        '''Returns the help description'''
+        print('helper description') 
+  
+help(Helper) 
+help(Helper.print_help) 
+
+========================================================================
+
+# Hands-On - Using Float
+reate two variables 'x', and 'y':
+
+'x' - positive infinity
+'y' - negative infinity
+Print 'x' and 'y' in separate lines, and also print the output of the math.isinf function, obtained when 'x' and 'y' are passed as arguments, in separate lines.
+
+import math
+x=float("inf")
+y=float("-inf")
+print(x)
+print(y)
+print (math.isinf (x))
+print (math.isinf (y))
+
+========================================================================
+
+# Hands-On - List Operations
+
+Create an empty list 'emplist1' using list operation.
+Print 'emplist1'.
+Append to empty list 'emplist1' created above with element 9.
+Append another element 10 to 'emplist1'.
+Print 'emplist1'.
+Create an empty list 'emplist2' using [].
+Print 'emplist2'.
+Extend the empty list 'emplist2' created above with elements 'a', 'b', 'c'.
+Print 'emplist2'.
+Remove the last element of 'emplist2', and assign it to variable 'e'.
+Print 'emplist2'.
+Print the variable 'e'.
+
+emplist1=list()
+print(emplist1)
+emplist1.append(9)
+emplist1.append(10)
+print(emplist1)
+emplist2=[]
+print(emplist2)	
+emplist2.extend(['a','b','c'])
+print(emplist2)
+e = emplist2.pop()
+print(emplist2)
+print(e)
+
+========================================================================
+
+# Hands-On - Usage Imports
+
+Consider a sphere with radius 2.5. Determine its surface area and volume, and display them in separate lines.
+
+Make use of 'pi' defined in the 'math' module.
+
+Hint: (Surface area = 4pir^2 ; Volume = 4/3pir^3).
+
+
+import math
+PI = math.pi
+radius = 2.5
+sa =  4 * PI * radius * radius
+Volume = (4 / 3) * PI * radius * radius * radius
+print("\n The Surface area of a Sphere = %.2f" %sa)
+print("\n The Volume of a Sphere = %.2f" %Volume)
+
+========================================================================
+
+# Hands-on - List Operations
+Write a script that performs the following tasks serially:
+
+Create an empty tuple 'tup1' using tuple operation.
+Print 'tup1'.
+Create another tuple 'tup2', by passing 'Welcome' string as argument to tuple function.
+Print 'tup2'.
+Find and print the count of character 'e' in 'tup2'.
+Determine the index of character 'e' in 'tup2' and print it.
+Find the length of tuple 'tup2' and print it.
+
+tup1=tuple()
+print(tup1)
+tup2=tuple('Welcome')
+print(tup2)
+print(tup2.count('e'))
+print(tup2.index('e'))
+print(len(tup2))	
+
+
+========================================================================
+
+# Hands-on - Slicing
+
+Consider the list 'k' with seven numbers [3, 4, 5, 6, 7, 8, 9]. Perform the following tasks, and print the outputs in separate lines:
+    Print the list of alternative numbers, using the slicing option, starting from '3'.
+    Print the list of alternative numbers obtained from the first 4 elements only.
+    Print the list of odd indexed elements of list 'k'. Since indexing starts at zero, odd indices would be 1,3, and so on.
+
+k = [3, 4, 5, 6, 7, 8, 9]
+print(k[0::2])
+print(k[0:4:2])
+print(k[1::2])
+
+========================================================================
+
+# Hands-on - Print
+Write a print statement which displays the message 'Welcome to Python 3'.
+
+
+print('Welcome to Python 3')
+
+========================================================================
+
+# Hands-on - Using int - Operations
+
+Assign x=6 and y=12, and print the output of the following comparisons in separate lines.
+    x==y
+    x!=y
+    x>=y
+    x>y
+    x<=y
+    x<y
+
+x=6
+y=12
+print(x==y)
+print(x!=y)
+print(x>=y)
+print(x>y)
+print(x<=y)
+print(x<y)
+
+========================================================================
+
+# Hands-on - Using int
+
+Define the following variables in a Python script and print the type of each variable in separate lines.
+
+    x = 6
+    y = 12
+    m = 0b1011
+    n = 0xad4
+
+x = 6
+y = 12
+m = 0b1011
+n = 0xad4
+print(type(x))
+print(type(y))
+print(type(m))
+print(type(n))
+
+========================================================================
+
+# Hands-on - For loop
+
+Consider the string 's' contains the value 'tata consultancy services limited'
+Determine the no. of vowels present in it by using the "for" loop. Store the number in the variable 'count', and print it.
+
+s = 'tata consultancy services limited'
+count = 0
+vowels = set("aeiou")
+for letter in s:
+    if letter in vowels:
+        count += 1
+print(count)
+
+========================================================================
+
+# Hands-on - While loop
+
+Consider the string 's' contains the value 'tata consultancy services limited'.
+Determine the no. of vowels present in it, using the "while" loop. Store the number in the variable 'count', and print it.
+
+s = 'tata consultancy services limited'
+count = 0
+x = len(s)        
+a = 0 
+vowels = set("aeiou")
+while (a < x):
+    if s[a] in vowels:
+        count += 1
+    a = a+1 
+print(count)
+
+========================================================================
+
+# Hands-on - using if
+Average score obtained by a student - 68.3
+Write a script with if-elif-else blocks to determine the grade obtained by a student based on the total average obtained. Use the following criteria to determine the grade:
+    if total average >= 90, display "Distinct".
+    if in range [60, 90), display "Above average".
+    if in range [40, 60), display "Average".
+    else display "Fail"
+
+a = 68.3
+if a>=90:
+	print('Distinct')
+elif a>=60 and a<90:
+	print('Above average')
+elif a>=40 and a<60:
+	print('Average')
+else:
+	print('Fail')
+
+========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
